@@ -22,6 +22,10 @@ Since V6 the plugin can repair all the planes in a single call [for a maximum of
 
 	g++ -c continuity.cpp -O2 -msse2 -mfpmath=sse -o continuity.o
 	g++ -shared -Wl,--dll,--add-stdcall-alias -o continuity.dll continuity.o
+	
+# Unix compilation
+	
+	g++ continuity.cpp -shared -fPIC -O2 -msse2 -mfpmath=sse -o continuity.so
 
 # Thanks
 Mirkosp, JEEB, HolyWu, jackoneill and Myrsloik
