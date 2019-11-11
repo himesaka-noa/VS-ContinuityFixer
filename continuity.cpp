@@ -1,6 +1,6 @@
 #include <stdlib.h>
-#include "VapourSynth.h"
-#include "VSHelper.h"
+#include "vapoursynth/VapourSynth.h"
+#include "vapoursynth/VSHelper.h"
 #include <stdint.h>
 
 typedef struct least_squares_data
